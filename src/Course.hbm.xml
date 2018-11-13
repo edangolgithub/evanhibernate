@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping">
+<!-- Generated Nov 11, 2018 6:31:03 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.javatpoint.mypackage.Course" table="COURSE">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="coursename" type="int">
+            <column name="COURSENAME" />
+        </property>
+    </class>
+</hibernate-mapping>

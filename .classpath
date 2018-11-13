@@ -4,5 +4,8 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/database"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/HibernateLibrary"/>
+	<classpathentry kind="lib" path="C:/Users/edangol/Documents/eclipsehibernate/lib/optional/c3p0/hibernate-c3p0-5.3.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/edangol/Documents/eclipsehibernate/lib/optional/c3p0/c3p0-0.9.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/edangol/Documents/eclipsehibernate/lib/optional/c3p0/mchange-commons-java-0.2.11.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
