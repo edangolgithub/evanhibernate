@@ -17,6 +17,7 @@
 	
 	
 	    <mapping class="annot.Customer" />
+	     <mapping class="annot.Xyz" />
 		<mapping resource="employee.hbm.xml" />
 		<mapping resource="Student1.hbm.xml" />
 		<mapping resource="Course.hbm.xml" />

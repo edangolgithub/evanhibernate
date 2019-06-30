@@ -18,8 +18,8 @@ public class Customer
 		@Id
 		@GeneratedValue
 		@Column(name = "CustomerId")
-
 		int CustomerId;
+		
 		@Column(name="CustomerName")
 		String CustomerName;
 	}
