@@ -4,19 +4,18 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/database"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/HibernateLibrary"/>
-	<classpathentry kind="lib" path="E:/hibernate-release-5.3.7.Final/lib/required/antlr-2.7.7.jar"/>
-	<classpathentry kind="lib" path="E:/hibernate-release-5.3.7.Final/lib/required/byte-buddy-1.8.17.jar"/>
-	<classpathentry kind="lib" path="E:/hibernate-release-5.3.7.Final/lib/required/classmate-1.3.4.jar"/>
-	<classpathentry kind="lib" path="E:/hibernate-release-5.3.7.Final/lib/required/dom4j-2.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/hibernate-release-5.3.7.Final/lib/required/hibernate-commons-annotations-5.0.4.Final.jar"/>
-	<classpathentry kind="lib" path="E:/hibernate-release-5.3.7.Final/lib/required/hibernate-core-5.3.7.Final.jar"/>
-	<classpathentry kind="lib" path="E:/hibernate-release-5.3.7.Final/lib/required/jandex-2.0.5.Final.jar"/>
-	<classpathentry kind="lib" path="E:/hibernate-release-5.3.7.Final/lib/required/javassist-3.23.1-GA.jar"/>
-	<classpathentry kind="lib" path="E:/hibernate-release-5.3.7.Final/lib/required/javax.activation-api-1.2.0.jar"/>
-	<classpathentry kind="lib" path="E:/hibernate-release-5.3.7.Final/lib/required/javax.persistence-api-2.2.jar"/>
-	<classpathentry kind="lib" path="E:/hibernate-release-5.3.7.Final/lib/required/jboss-logging-3.3.2.Final.jar"/>
-	<classpathentry kind="lib" path="E:/hibernate-release-5.3.7.Final/lib/required/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
-	<classpathentry kind="lib" path="E:/java/mysql-connector-java-8.0.16/mysql-connector-java-8.0.16.jar"/>
-	<classpathentry kind="lib" path="E:/evu/c3p0-0.9.5.2/lib/c3p0.jar"/>
+	<classpathentry kind="lib" path="D:/java/hibernate/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="D:/java/hibernate/byte-buddy-1.9.5.jar"/>
+	<classpathentry kind="lib" path="D:/java/hibernate/classmate-1.3.4.jar"/>
+	<classpathentry kind="lib" path="D:/java/hibernate/dom4j-2.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/java/hibernate/hibernate-commons-annotations-5.0.4.Final.jar"/>
+	<classpathentry kind="lib" path="D:/java/hibernate/hibernate-core-5.3.10.Final.jar"/>
+	<classpathentry kind="lib" path="D:/java/hibernate/jandex-2.0.5.Final.jar"/>
+	<classpathentry kind="lib" path="D:/java/hibernate/javassist-3.23.2-GA.jar"/>
+	<classpathentry kind="lib" path="D:/java/hibernate/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/java/hibernate/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/java/hibernate/jboss-logging-3.3.2.Final.jar"/>
+	<classpathentry kind="lib" path="D:/java/hibernate/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="D:/java/mysql-connector-java-8.0.16.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

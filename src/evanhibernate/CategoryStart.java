@@ -17,19 +17,8 @@ public class CategoryStart
             factory= new Configuration().configure().buildSessionFactory();
             
           // ListCategory();
-            try {
-            int a=5;
-            int b=0;
-            int c=a/b;
-            
-            System.out.println(c);
-            }
-            catch(Exception ex)
-            {
-            	System.out.println(ex.getMessage());
-            }
-            
-            
+      
+            SaveCategory();
 			}
 		@SuppressWarnings("unused")
 		private static void SaveCategory() throws HibernateException
