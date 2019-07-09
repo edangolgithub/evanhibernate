@@ -15,12 +15,9 @@
 		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 	
 	
-	
-<!-- 	    <mapping class="annot.Customer" /> -->
-<!-- 	     <mapping class="annot.Xyz" /> -->
+
 		<mapping resource="Employee.hbm.xml" /> 
-<!-- 		<mapping resource="Student1.hbm.xml" /> -->
-<!-- 		<mapping resource="Course.hbm.xml" /> -->
-		<mapping resource="Question.hbm.xml" />
+
+		
 		</session-factory>
 </hibernate-configuration>  

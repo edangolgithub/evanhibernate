@@ -1,23 +1,19 @@
 package chandra;
-
-
-
 import java.util.*;
 
-public class Employee{
+public class Employee {
    private int id;
    private String firstName; 
    private String lastName;   
    private int salary;
-   private Address address;
+   private Set certificates;
 
    public Employee() {}
    
-   public Employee(String fname, String lname, int salary, Address address ) {
+   public Employee(String fname, String lname, int salary) {
       this.firstName = fname;
       this.lastName = lname;
       this.salary = salary;
-      this.address = address;
    }
    
    public int getId() {
@@ -52,11 +48,11 @@ public class Employee{
       this.salary = salary;
    }
 
-   public Address getAddress() {
-      return address;
+   public Set getCertificates() {
+      return certificates;
    }
    
-   public void setAddress( Address address ) {
-      this.address = address;
+   public void setCertificates( Set certificates ) {
+      this.certificates = certificates;
    }
 }
