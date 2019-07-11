@@ -6,7 +6,8 @@ public class Employee {
    private String firstName; 
    private String lastName;   
    private int salary;
-   private Set certificates;
+  // private Set certificates;
+   private List certificates;
 
    public Employee() {}
    
@@ -48,11 +49,11 @@ public class Employee {
       this.salary = salary;
    }
 
-   public Set getCertificates() {
+   public List getCertificates() {
       return certificates;
    }
    
-   public void setCertificates( Set certificates ) {
+   public void setCertificates( List certificates ) {
       this.certificates = certificates;
    }
 }

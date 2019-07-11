@@ -21,18 +21,18 @@ public class Emplyeemain {
       
       Emplyeemain m= new Emplyeemain();
       Employee chandra= new Employee();
-      chandra.setFirstName("chandra");
-      chandra.setLastName("Tamang");
-      chandra.setSalary(50000);
-      HashSet<Certificate> hs= new HashSet<Certificate>();
-      hs.add(new Certificate("MBA"));
-      hs.add(new Certificate("Phd"));
+      chandra.setFirstName("chakra");
+      chandra.setLastName("baskota");
+      chandra.setSalary(5);
+      List<Certificate> hs= new ArrayList<Certificate>();
+      hs.add(new Certificate("grade 6"));
+      hs.add(new Certificate("slc fail"));
       chandra.setCertificates(hs);
       m.addEmployee(chandra.getFirstName(), chandra.getLastName(), chandra.getSalary(), chandra.getCertificates());
    }
 
    /* Method to add an employee record in the database */
-   public Integer addEmployee(String fname, String lname, int salary, Set cert){
+   public Integer addEmployee(String fname, String lname, int salary, List cert){
       Session session = factory.openSession();
       Transaction tx = null;
       Integer employeeID = null;
@@ -64,7 +64,7 @@ public class Emplyeemain {
             System.out.print("First Name: " + employee.getFirstName()); 
             System.out.print("  Last Name: " + employee.getLastName()); 
             System.out.println("  Salary: " + employee.getSalary());
-            Set certificates = employee.getCertificates();
+            List certificates = employee.getCertificates();
             for (Iterator iterator2 = certificates.iterator(); iterator2.hasNext();){
                Certificate certName = (Certificate) iterator2.next(); 
                System.out.println("Certificate: " + certName.getName()); 

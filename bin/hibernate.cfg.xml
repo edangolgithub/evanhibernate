@@ -17,7 +17,8 @@
 	
 
 		<mapping resource="Employee.hbm.xml" /> 
-
+<mapping class="annot.Address"/>   
+<mapping class="annot.Student"/> 
 		
 		</session-factory>
 </hibernate-configuration>  
