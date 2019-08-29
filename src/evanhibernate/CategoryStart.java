@@ -10,15 +10,15 @@ import org.hibernate.cfg.Configuration;
 
 public class CategoryStart
 	{ 
-            static  SessionFactory factory=null;
+       static  SessionFactory factory=null;
 		public static void main(String[] args)
 			{
 				
             factory= new Configuration().configure().buildSessionFactory();
             
-          // ListCategory();
+           ListCategory();
       
-            SaveCategory();
+            //SaveCategory();
 			}
 		@SuppressWarnings("unused")
 		private static void SaveCategory() throws HibernateException
@@ -29,9 +29,11 @@ public class CategoryStart
 				try
 					{
 						tx=session.beginTransaction();
+						
 						Category cat= new Category();
 						cat.categoryname="ram";
 						session.save(cat);
+						
 						tx.commit();
 					}
 				catch (Exception e )

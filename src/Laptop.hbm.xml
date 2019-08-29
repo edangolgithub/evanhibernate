@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://http://www.hibernate.org/hibernate-mapping">  
+ 
+ 
+<hibernate-mapping>
+    <class name="rajiv.Laptop" >
+    
+        <id name="laptopid" type="int">
+           
+            <generator class="increment" />
+        </id>
+        
+        <property name="model" type="java.lang.String">
+            
+        </property>
+    </class>
+</hibernate-mapping>
